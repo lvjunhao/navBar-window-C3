@@ -1,0 +1,40 @@
+html {overflow-y:scroll;}   
+body {margin:0; padding:0; font-size:12px;font-family:"Microsoft YaHei",sans-serif;}   
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p,a,span,img{padding:0; margin:0;}   
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;}
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+a{text-decoration: none;color:#5d5d5d}
+select {
+	border: solid 1px #000;
+	/*将默认的select选择框样式清除*/
+	/*appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;*/
+	/*加padding防止文字覆盖*/
+	padding-right: 14px;
+	}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+.wrap {
+    margin:0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix::after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0
+}
+/*.clearfix{
+    *zoom:1;
+}*/
