@@ -11,7 +11,7 @@ body {
   font-family: Raleway, sans-serif;
   -webkit-perspective: 1500px;
   perspective: 1500px;
-  background: #21212D;
+  background: skyblue;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
